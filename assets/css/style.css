@@ -479,6 +479,9 @@
   .items-center {
     align-items: center;
   }
+  .justify-baseline {
+    justify-content: baseline;
+  }
   .justify-between {
     justify-content: space-between;
   }
@@ -487,6 +490,9 @@
   }
   .justify-end {
     justify-content: flex-end;
+  }
+  .justify-items-stretch {
+    justify-items: stretch;
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
