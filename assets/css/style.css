@@ -1,5 +1,5 @@
 /*! tailwindcss v4.0.15 | MIT License | https://tailwindcss.com */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap");
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -61,7 +61,10 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --font-bilingual: -apple-system, PingFang SC, Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, WenQuanYi Micro Hei, Microsoft Yahei, sans-serif ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif, "Noto Serif SC";
+    --font-bilingual: -apple-system, PingFang SC, Helvetica Neue, Helvetica, Arial,
+        Hiragino Sans GB, WenQuanYi Micro Hei, Microsoft Yahei,
+        sans-serif ui-serif, Georgia, Cambria, "Times New Roman", Times, serif,
+        "Noto Serif SC";
   }
 }
 @layer base {
@@ -1313,6 +1316,8 @@
   border-style: var(--tw-border-style);
   border-width: 1px;
   border-color: var(--color-gray-200);
+  font-size: var(--text-sm);
+  line-height: var(--tw-leading, var(--text-sm--line-height));
   --tw-font-weight: var(--font-weight-light);
   font-weight: var(--font-weight-light);
   --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
